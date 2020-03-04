@@ -9,7 +9,7 @@
         "container": "wrapper",
         "comestible_type": "FOOD",
         "symbol": "%",
-        "calories": 959,
+        "calories": 1100,
         "description": "A simple sandwich, if you can even call it that, of butter and bread. Frankly disgusting but it works in a pinch.",
         "price": 85,
         "material": [ "junk", "wheat" ],
