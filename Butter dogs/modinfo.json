@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Butter Dog",
+    "name": "Butter  Dog",
+    "authors": [ "Dandelion" ],
+    "description": "Butter dogs, you slob.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]
