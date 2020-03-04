@@ -1,20 +1,23 @@
 [
-    {
-        "type": "COMESTIBLE",
-        "id": "sandwich_butter",
-        "name": { "str": "butter dog", "str_pl": "butter dogs" },
-        "weight": "114 g",
-        "color": "brown",
-        "spoils_in": "3 days",
-        "container": "wrapper",
-        "comestible_type": "FOOD",
-        "symbol": "%",
-        "calories": 555,
-        "description": "A simple sandwich, if you can even call it that, of butter and bread. Frankly disgusting but it works in a pinch.",
-        "price": 85,
-        "material": [ "junk", "wheat" ],
-        "primary_material": "wheat",
-        "volume": "250 ml",
-        "fun": -1
-      }
+  {
+    "type": "recipe",
+    "result": "sandwich_butter",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "time": "5 s",
+    "charges": 1,
+    "autolearn": true,
+    "components": [
+      [
+        [ "flatbread", 1 ],
+        [ "bread", 1 ],
+        [ "cornbread", 1 ],
+        [ "wastebread", 1 ],
+        [ "sourdough_bread", 1 ],
+        [ "brioche", 1 ]
+      ],
+      [ [ "any_butter", 8, "LIST" ], [ "ghee", 8 ] ]
+    ]
+  }
 ]
